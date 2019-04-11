@@ -25,21 +25,16 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    //    flexDirection: 'column',
-    flexDirection: "row",
   },
   box1: {
-    width: 100,
     height: 100,
     backgroundColor: "red"
   },
   box2: {
-    width: 100,
-    height: 100,
+    flex: 1,
     backgroundColor: "yellow"
   },
   box3: {
-    width: 100,
     height: 100,
     backgroundColor: "blue"
   }
