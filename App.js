@@ -28,9 +28,12 @@ export default class App extends Component<Props> {
         <HelloWorld message={this.state.message} />
         <Text
           style={styles.welcome}
-          onPress={() => { this.setState({ message: "onPress" }); console.log("log"); }}
+          onPress={() => {
+            this.setState({ message: "onPress" });
+            console.log("log");
+          }}
         >
-          ハローワールド{this.state.message}
+          ハローワールド3{this.state.message}
         </Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
